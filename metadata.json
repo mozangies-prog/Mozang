@@ -1,0 +1,5 @@
+{
+  "name": "Mozang Community Portal",
+  "description": "An offline-first portal for residents of Mozang to file complaints and for administrators to manage and analyze community feedback. All data is stored locally in the browser.",
+  "requestFramePermissions": []
+}
