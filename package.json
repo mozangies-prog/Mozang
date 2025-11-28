@@ -1,11 +1,23 @@
-// ...existing code...
 {
-  "homepage": "https://mozangies-prog.github.io/Mozang",
-  // ...existing code...
+  "name": "mozang-community-portal-v1.0.1-for-live-purpose-changes",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    // ...existing code...
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.9.4",
+    "recharts": "^3.3.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
   }
-  // ...existing code...
 }
